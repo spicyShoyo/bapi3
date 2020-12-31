@@ -3,6 +3,24 @@
 <head>
 
 <!-- Add Pixel Code Here -->
+ <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1077595836021329');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1077595836021329&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
   
 <style>
 body,html {
@@ -66,8 +84,8 @@ body,html {
         <img class="img" src="AD-Topo-Tote.png">
       </div>
       <div class="links">
-        <a class="one" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Subscribe', {value: 0.00, currency: 'USD'});" target="_blank">Visit BearDog</a>
-        <a class="two" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'InitiateCheckout');" target="_blank">Visit BearDog</a>
+        <a class="one" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Purchase', {value: Math.round(Math.random() * 1000) / 10, currency: 'USD'});" target="_blank">Visit BearDog</a>
+        <a class="two" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'AddToCart', {value: Math.round(Math.random() * 1000) / 10, currency: 'USD'});" target="_blank">Visit BearDog</a>
         <a class="three" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Schedule');" target="_blank">Visit BearDog</a>
         <a class="four" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'SubmitApplication');" target="_blank">Visit BearDog</a>
         <a class="five" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Contact');" target="_blank">Visit BearDog</a>
